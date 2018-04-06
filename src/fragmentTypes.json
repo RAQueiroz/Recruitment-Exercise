@@ -1,0 +1,195 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "PublicRepoGQLInterface",
+        "possibleTypes": [
+          {
+            "name": "PublicForm"
+          },
+          {
+            "name": "PublicPipe"
+          },
+          {
+            "name": "PublicTable"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "RepoItemFormGQLInterface",
+        "possibleTypes": [
+          {
+            "name": "PublicForm"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "RepoItemFieldsTypes",
+        "possibleTypes": [
+          {
+            "name": "DateField"
+          },
+          {
+            "name": "ChecklistVerticalField"
+          },
+          {
+            "name": "AttachmentField"
+          },
+          {
+            "name": "DueDateField"
+          },
+          {
+            "name": "EmailField"
+          },
+          {
+            "name": "TimeField"
+          },
+          {
+            "name": "NumberField"
+          },
+          {
+            "name": "RadioHorizontalField"
+          },
+          {
+            "name": "PhoneField"
+          },
+          {
+            "name": "DatetimeField"
+          },
+          {
+            "name": "LabelField"
+          },
+          {
+            "name": "AssigneeField"
+          },
+          {
+            "name": "LongTextField"
+          },
+          {
+            "name": "ConnectorField"
+          },
+          {
+            "name": "RadioVerticalField"
+          },
+          {
+            "name": "CpfField"
+          },
+          {
+            "name": "SelectField"
+          },
+          {
+            "name": "StatementField"
+          },
+          {
+            "name": "IdField"
+          },
+          {
+            "name": "CurrencyField"
+          },
+          {
+            "name": "ChecklistHorizontalField"
+          },
+          {
+            "name": "CnpjField"
+          },
+          {
+            "name": "ShortTextField"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "FieldType",
+        "possibleTypes": [
+          {
+            "name": "AssigneeField"
+          },
+          {
+            "name": "AttachmentField"
+          },
+          {
+            "name": "ChecklistHorizontalField"
+          },
+          {
+            "name": "ChecklistVerticalField"
+          },
+          {
+            "name": "CnpjField"
+          },
+          {
+            "name": "ConnectorField"
+          },
+          {
+            "name": "CpfField"
+          },
+          {
+            "name": "CurrencyField"
+          },
+          {
+            "name": "DateField"
+          },
+          {
+            "name": "DatetimeField"
+          },
+          {
+            "name": "DueDateField"
+          },
+          {
+            "name": "EmailField"
+          },
+          {
+            "name": "LabelField"
+          },
+          {
+            "name": "LongTextField"
+          },
+          {
+            "name": "NumberField"
+          },
+          {
+            "name": "PhoneField"
+          },
+          {
+            "name": "RadioHorizontalField"
+          },
+          {
+            "name": "RadioVerticalField"
+          },
+          {
+            "name": "SelectField"
+          },
+          {
+            "name": "ShortTextField"
+          },
+          {
+            "name": "TimeField"
+          }
+        ]
+      },
+      {
+        "kind": "UNION",
+        "name": "PublicRepoUnion",
+        "possibleTypes": [
+          {
+            "name": "PublicPipe"
+          },
+          {
+            "name": "PublicTable"
+          }
+        ]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "PublicRepoItemInterface",
+        "possibleTypes": [
+          {
+            "name": "PublicRepoItem"
+          }
+        ]
+      }
+    ]
+  }
+}
