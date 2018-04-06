@@ -8,7 +8,9 @@ class RecruitmentFormContainer extends Component{
 
   constructor(props) {
     super(props);
-    this.state = { errors: '' };
+    this.state = { 
+      errors: '',
+    };
   }
 
   handleSubmit(values){
@@ -40,7 +42,6 @@ class RecruitmentFormContainer extends Component{
         }
       })
       .then(res => {
-        console.log('res => ', res);
         if(res.errors){
           this.setState({ errors: res.errors})
         }
