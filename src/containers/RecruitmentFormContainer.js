@@ -44,6 +44,7 @@ class RecruitmentFormContainer extends Component{
         if(res.errors){
           this.setState({ errors: res.errors})
         }
+        alert(JSON.stringify(res.data));
       })
       .catch(err => {
         this.setState({errors: err.message})
